@@ -7,6 +7,7 @@ import LessonUseRef from './components/page/lessons/LessonUseRef'
 import LessonMemo from './components/page/lessons/LessonMemo'
 import LessonUseCallBack from './components/page/lessons/LessonUseCallBack'
 import LessonUseMemo from './components/page/lessons/LessonUseMemo'
+import LessonContext from './components/page/lessons/LessonContext'
 
 const listLesson = [
   {
@@ -40,6 +41,10 @@ const listLesson = [
   {
     module: <LessonUseMemo />,
     name: 'lesson use memo'
+  },
+  {
+    module: <LessonContext />,
+    name: 'lesson context'
   }
 ]
 
